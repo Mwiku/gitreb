@@ -4,3 +4,6 @@ WORKDIR /app
 
 
 COPY . .
+
+
+RUN echo "hi"
