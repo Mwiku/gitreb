@@ -5,5 +5,5 @@ WORKDIR /app
 
 COPY . .
 
-
 RUN echo "hi"
+RUN apk install vim
